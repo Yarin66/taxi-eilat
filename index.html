@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>מוניות לילה באילת | 053-525-7422</title>
-
-<meta name="description" content="מוניות לילה באילת 24/7 - נסיעות למלונות, שדה רמון, חיי לילה וטאבה">
+<title>מוניות לילה באילת</title>
+<meta name="description" content="מוניות לילה באילת - שירות מוניות מהיר, אמין וזמין 24 שעות.">
 
 <style>
-
 *{
 margin:0;
 padding:0;
@@ -19,17 +15,17 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#080b14;
-color:white;
+background:#0f172a;
+color:#fff;
+line-height:1.6;
 }
 
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.9)),
-url("https://images.unsplash.com/photo-1530789253388-582c481c54b0")
-center/cover;
-
+header{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.75)),
+url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -37,257 +33,184 @@ text-align:center;
 padding:20px;
 }
 
-.hero-box{
+.hero{
 max-width:800px;
 }
 
-.logo{
-font-size:28px;
-color:#ffd400;
-font-weight:bold;
-margin-bottom:25px;
-}
-
-h1{
-font-size:55px;
+.hero h1{
+font-size:58px;
+color:#ffd54a;
 margin-bottom:20px;
 }
 
-h1 span{
-color:#ffd400;
-}
-
 .hero p{
-font-size:25px;
-line-height:1.6;
+font-size:24px;
+margin-bottom:35px;
 }
 
 .buttons{
-margin-top:35px;
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
 }
 
 .btn{
-display:inline-block;
-padding:17px 35px;
-margin:8px;
+padding:16px 28px;
 border-radius:50px;
 text-decoration:none;
-font-size:20px;
 font-weight:bold;
+font-size:19px;
+transition:.3s;
 }
 
 .call{
-background:#ffd400;
-color:#000;
+background:#ffd54a;
+color:#111;
+}
+
+.call:hover{
+transform:translateY(-3px);
 }
 
 .whatsapp{
-background:#25d366;
+background:#25D366;
 color:white;
 }
 
-.waze{
-background:#1e90ff;
-color:white;
+.whatsapp:hover{
+transform:translateY(-3px);
 }
-
 
 section{
 padding:70px 20px;
+max-width:1200px;
+margin:auto;
 }
-
 
 .title{
 text-align:center;
 font-size:38px;
-color:#ffd400;
-margin-bottom:40px;
+margin-bottom:45px;
+color:#ffd54a;
 }
 
-
-.cards{
-max-width:1100px;
-margin:auto;
+.grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:22px;
 }
-
 
 .card{
-background:#151c2c;
-padding:30px;
-border-radius:20px;
+background:#1e293b;
+padding:28px;
+border-radius:18px;
 text-align:center;
-font-size:19px;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
 
-
 .card h3{
-color:#ffd400;
+margin-bottom:12px;
+color:#ffd54a;
+}
+
+.review{
+background:#162033;
+padding:25px;
+border-radius:16px;
+}
+
+.review b{
+color:#ffd54a;
+}
+
+.banner{
+background:#ffd54a;
+color:#111;
+text-align:center;
+padding:60px 20px;
+}
+
+.banner h2{
+font-size:42px;
 margin-bottom:15px;
-}<section>
+}
 
-<h2 class="title">השירותים שלנו</h2>
+.banner .phone{
+font-size:46px;
+font-weight:bold;
+margin:15px 0;
+}
 
-<div class="cards">
+footer{
+background:#060b16;
+padding:35px;
+text-align:center;
+color:#bbb;
+}
 
-<div class="card">
-<h3>🌙 מוניות לילה</h3>
-נסיעות אחרי בילויים, ברים ומועדונים ברחבי אילת
-</div>
+.float{
+position:fixed;
+left:18px;
+width:62px;
+height:62px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:28px;
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
 
-<div class="card">
-<h3>🏨 בתי מלון</h3>
-איסוף והחזרה מכל מלונות אילת
-</div>
+.float-call{
+bottom:95px;
+background:#ffd54a;
+color:#111;
+}
 
-<div class="card">
-<h3>✈️ שדה רמון</h3>
-הסעות לשדה התעופה וממנו בכל שעה
-</div>
+.float-wa{
+bottom:20px;
+background:#25D366;
+color:white;
+}
 
-<div class="card">
-<h3>🇪🇬 טאבה</h3>
-נסיעות נוחות למעבר טאבה
-</div>
+@media(max-width:700px){
 
-<div class="card">
-<h3>🌴 חופי אילת</h3>
-נסיעות לחופים, מסעדות ואטרקציות
-</div>
+.hero h1{
+font-size:40px;
+}
 
-<div class="card">
-<h3>⭐ שירות אישי</h3>
-נהג אדיב, אמין וזמין עבורכם
-</div>
+.hero p{
+font-size:20px;
+}
 
-</div>
+.banner h2{
+font-size:32px;
+}
 
-</section>
+.banner .phone{
+font-size:34px;
+}
 
+}
+</style>
+</head>
 
+<body>
 
-<section>
+<header>
 
-<h2 class="title">למה לבחור בנו?</h2>
+<div class="hero">
 
-<div class="cards">
+<h1>🚖 מוניות לילה באילת</h1>
 
-<div class="card">
-<h3>⚡ מהיר</h3>
-הגעה מהירה לכל אזור באילת
-</div>
-
-<div class="card">
-<h3>🕒 24/7</h3>
-זמינים גם בשעות הלילה
-</div>
-
-<div class="card">
-<h3>🚖 בטוח</h3>
-נסיעה רגועה ונעימה
-</div>
-
-<div class="card">
-<h3>🌍 תיירים</h3>
-שירות בעברית ובאנגלית
-</div>
-
-</div>
-
-</section>
-
-
-
-<section style="background:#ffd400;color:#000;text-align:center;">
-
-<h2 style="font-size:40px;">
-צריכים מונית עכשיו?
-</h2>
-
-<h2 style="font-size:45px;margin:20px;">
-053-525-7422
-</h2>
-
-<p style="font-size:22px;">
-מוניות לילה באילת | זמינים 24 שעות
+<p>
+שירות מוניות מהיר, אמין וזמין 24 שעות ביממה.
+נסיעות בעיר, למלונות, לשדה רמון ולטאבה.
 </p>
 
-</section>
-
-
-
-<section>
-
-<h2 class="title">Night Taxi Eilat</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>For Tourists</h3>
-Fast taxi service for visitors in Eilat
-</div>
-
-<div class="card">
-<h3>Airport Transfers</h3>
-Ramon Airport pickup and drop off
-</div>
-
-<div class="card">
-<h3>Night Life</h3>
-Bars, clubs and hotels transportation
-</div>
-
-</div>
-
-</section> <section>
-
-<h2 class="title">לקוחות ממליצים</h2>
-
-<div class="cards">
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<br><br>
-"שירות מהיר, נהג אדיב והגיע בזמן"
-</div>
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<br><br>
-"נסיעה מצוינת מהמלון לשדה רמון"
-</div>
-
-<div class="card">
-⭐⭐⭐⭐⭐
-<br><br>
-"מומלץ מאוד למי שמחפש מונית באילת"
-</div>
-
-</div>
-
-</section>
-
-
-
-<section>
-
-<h2 class="title">הזמנת מונית</h2>
-
-<div class="card">
-
-<h3>🚖 מוניות לילה באילת</h3>
-
-<p style="font-size:22px;margin:20px;">
-להזמנה מהירה התקשרו עכשיו
-</p>
-
-<h2 style="color:#ffd400;font-size:42px;">
-053-525-7422
-</h2>
-
-<br>
+<div class="buttons">
 
 <a class="btn call" href="tel:0535257422">
 📞 התקשר עכשיו
@@ -297,112 +220,155 @@ Bars, clubs and hotels transportation
 💬 WhatsApp
 </a>
 
-<a class="btn waze" href="https://www.waze.com">
-📍 Waze
-</a>
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="title">השירותים שלנו</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🌙 מוניות לילה</h3>
+זמינים גם בשעות הקטנות של הלילה.
+</div>
+
+<div class="card">
+<h3>🏨 בתי מלון</h3>
+איסוף והחזרה מכל בתי המלון באילת.
+</div>
+
+<div class="card">
+<h3>✈️ שדה רמון</h3>
+נסיעות לשדה התעופה ובחזרה.
+</div>
+
+<div class="card">
+<h3>🇪🇬 מעבר טאבה</h3>
+נסיעות מהירות למעבר הגבול.
+</div>
 
 </div>
 
 </section>
 
+<section>
 
+<h2 class="title">למה לבחור בנו?</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>⚡ הגעה מהירה</h3>
+מענה מהיר והגעה בזמן.
+</div>
+
+<div class="card">
+<h3>🚖 שירות מקצועי</h3>
+נסיעה בטוחה ונעימה.
+</div>
+
+<div class="card">
+<h3>💳 תשלום נוח</h3>
+מזומן או אמצעי תשלום מקובלים.
+</div>
+
+<div class="card">
+<h3>🌍 Tourist Friendly</h3>
+English speaking service.
+</div>
+
+</div>
+
+</section> <section>
+
+<h2 class="title">מה הלקוחות אומרים</h2>
+
+<div class="grid">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<br><br>
+<b>דניאל</b><br>
+"שירות מעולה, הנהג הגיע תוך דקות והנסיעה הייתה מצוינת."
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<br><br>
+<b>מור</b><br>
+"הזמנתי מונית לשדה רמון בשעת לילה והכול היה מושלם."
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<br><br>
+<b>Sarah</b><br>
+"Fast, friendly and reliable taxi service in Eilat."
+</div>
+
+</div>
+
+</section>
+
+<div class="banner">
+
+<h2>צריכים מונית עכשיו?</h2>
+
+<div class="phone">
+053-525-7422
+</div>
+
+<p style="font-size:20px;margin-bottom:25px;">
+זמינים עבורכם 24 שעות ביממה
+</p>
+
+<div class="buttons">
+
+<a class="btn call" href="tel:0535257422">
+📞 התקשר עכשיו
+</a>
+
+<a class="btn whatsapp" href="https://wa.me/972535257422">
+💬 שלח הודעה ב־WhatsApp
+</a>
+
+</div>
+
+</div>
 
 <footer>
 
-<h3 style="color:#ffd400;">
+<h3 style="color:#ffd54a;margin-bottom:12px;">
 🚖 מוניות לילה באילת
 </h3>
 
 <p>
-שירות מוניות 24/7 באילת
+שירות מוניות בעיר אילת, שדה רמון, בתי מלון ומעבר טאבה.
 </p>
 
-<p>
+<p style="margin-top:15px;">
+טלפון:
+<strong>053-525-7422</strong>
+</p>
+
+<p style="margin-top:20px;">
 © 2026 כל הזכויות שמורות
 </p>
 
 </footer>
 
-
-
-<a href="tel:0535257422" class="float call-float">
+<a href="tel:0535257422" class="float float-call">
 📞
 </a>
 
-<a href="https://wa.me/972535257422" class="float wa-float">
+<a href="https://wa.me/972535257422" class="float float-wa">
 💬
 </a>
-
-
-
-<style>
-
-footer{
-background:#000;
-padding:35px 20px;
-text-align:center;
-}
-
-
-.float{
-
-position:fixed;
-left:20px;
-width:65px;
-height:65px;
-border-radius:50%;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-font-size:30px;
-text-decoration:none;
-
-z-index:10;
-
-box-shadow:0 5px 20px rgba(0,0,0,.4);
-
-}
-
-
-.call-float{
-bottom:100px;
-background:#ffd400;
-color:#000;
-}
-
-
-.wa-float{
-bottom:25px;
-background:#25d366;
-color:white;
-}
-
-
-@media(max-width:600px){
-
-h1{
-font-size:38px;
-}
-
-.hero p{
-font-size:19px;
-}
-
-.title{
-font-size:30px;
-}
-
-.btn{
-font-size:17px;
-padding:15px 22px;
-}
-
-}
-
-</style>
-
 
 </body>
 </html>
